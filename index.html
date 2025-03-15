@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-black">
+   
+    <div class="h-screen w-full flex flex-col m-10 justify-center items-center">
+        <h1 class="text-orange-800 text-3xl font-bold ">Weather App</h1>
+        <i class='bx bx-sun' style='color:#e0e30d' ></i>
+        <div class="border text-white rounded-lg h-auto">
+            
+            <input type="text" placeholder="type the place or city" class="border-white text-white m-6">
+            <button class="border m-5 w-50 rounded text-white">Search</button>
+        </div>
+        <div id="result" class="text-orange-400"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
